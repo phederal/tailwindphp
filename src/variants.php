@@ -429,7 +429,7 @@ class Variants implements VariantsInterface
      */
     private function nextOrder(): int
     {
-        return $this->groupOrder ?? $this->lastOrder + 1;
+        return $this->lastOrder + 1;
     }
 
     /**
